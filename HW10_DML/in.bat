@@ -1,0 +1,1 @@
+"C:\Program Files\Microsoft SQL Server\110\Tools\Binn\bcp.exe" WideWorldImporters.Sales.Customers_bcp in "D:\WORKSD\bcp_file\customer.txt" -w -t "@eu&$1&" -T -S DESKTOP-O64T8QV\MSSQLSERVER2017
