@@ -2,6 +2,10 @@ SET STATISTICS IO ON
 SET STATISTICS TIME ON 
 GO
 
+
+USE WideWorldImporters;
+GO
+
 /*****ИСХОДНЫЙ ЗАПРОС**********/
 
 Select ord.CustomerID, det.StockItemID, SUM(det.UnitPrice), SUM(det.Quantity), COUNT(ord.OrderID)
